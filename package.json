@@ -1,0 +1,25 @@
+{
+	"name": "tailwind-getting-started",
+	"version": "1.0.0",
+	"description": "Learning Tailwind CSS by following getting started video series on the official tailwind website",
+	"main": "index.js",
+	"scripts": {
+		"build": "postcss css/tailwind.css -o public/build/tailwind.css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Yash-Jawale/Tailwind-Getting-Started.git"
+	},
+	"keywords": [],
+	"author": "Yash-Jawale",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Yash-Jawale/Tailwind-Getting-Started/issues"
+	},
+	"homepage": "https://github.com/Yash-Jawale/Tailwind-Getting-Started#readme",
+	"dependencies": {
+		"autoprefixer": "^9.8.6",
+		"postcss-cli": "^7.1.2",
+		"tailwindcss": "^1.7.6"
+	}
+}
